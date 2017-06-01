@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from matplotlib import cm
 from mpl_toolkits.mplot3d import Axes3D
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -34,7 +35,7 @@ x = y = np.arange(-4.0, 4.0, step)
 X, Y = np.meshgrid(x, y)
 zs = np.array([f(x,y) for x,y in zip(np.ravel(X), np.ravel(Y))])
 Z = zs.reshape(X.shape)
-ax.plot_surface(X, Y, Z)
+ax.plot_surface(X, Y, Z, cmap=cm.coolwarm)
 
 x_reg1, y_reg1, z_reg_proj1 = poly_reg(0, 1, 1, 3, 0, 0)
 ax.plot(x_reg1, y_reg1, '.')
