@@ -47,10 +47,14 @@ ex_vs = np.array([[0, 1],
 p0 = np.array([3,1])
 import scipy.optimize as sci_opt
 
+tolerance = 1e-7
+
 def find_next_pt(start_pt, extreme_pts):
     idx = opt_step(start_pt, extreme_pts)
     p1 = extreme_pts[idx]
     d = p1-start_pt
+    if (np.less_equal(abs(d), tolerance).all()):
+        return None
     t = sci_opt.line_search(target_func, grad_target, start_pt, d)
     if t[0] is None:
         return None
@@ -89,7 +93,12 @@ def run(start_pt, extreme_pts):
 print(run(ex_vs[2], ex_vs))
 
 ex_vs = ex_vs - 1
+print(run(ex_vs[2], ex_vs))
 
+ex_vs = ex_vs + np.array([1,0])
+print(run(ex_vs[2], ex_vs))
+
+ex_vs = ex_vs + np.array([0.1,0])
 print(run(ex_vs[2], ex_vs))
 
 ex_vs = ex_vs - 3
