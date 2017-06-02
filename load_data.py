@@ -19,6 +19,21 @@ def load_conll2003():
     test_sents = removed_3rdcol[:100]
     return train_sents, test_sents
 
+import process_aff_training_data as process_aff
+def load_aff1():
+    _train_data = pickle.load(open('aff1_train.pkl', 'rb'))
+    #_train_data = _train_data[1:]
+    result = []
+    for d in _train_data:
+        r = []
+        for l in d:
+            r.append(l)
+        result.append(r)
+    train_sents = result[100:]
+    #test_sents = result[:100]
+    test_sents = process_aff.read_conll('data/test-1-converted.txt')
+    return train_sents, test_sents
+
 
 def word2Feat(sent, i):
     word = sent[i][0]

@@ -9,7 +9,7 @@ import pycrfsuite
 print(sklearn.__version__)
 
 import load_data as ld
-train_sents, test_sents = ld.load_conll2003()
+train_sents, test_sents = ld.load_aff1()
 
 print(train_sents[0])
 
@@ -17,8 +17,8 @@ f1 = ld.sent2Feats(train_sents[0])[0]
 print(f1)
 
 
-x_test = [ld.sent2Feats(s) for s in test_sents]
-y_test = [ld.sent2Labels(s) for s in test_sents]
+# x_test = [ld.sent2Feats(s) for s in test_sents]
+# y_test = [ld.sent2Labels(s) for s in test_sents]
 
 def train_model(model_name):
     x_train = [ld.sent2Feats(s) for s in train_sents]
@@ -45,13 +45,14 @@ def train_model(model_name):
 
     print (len(trainer.logparser.iterations), trainer.logparser.iterations[-1])
 
-model_name = 'conll2003-en.crfsuite'
+#model_name = 'conll2003-en.crfsuite'
+model_name = 'aff1.crfsuite'
 #train_model(model_name)
 
 tagger = pycrfsuite.Tagger()
 tagger.open(model_name)
-example_sent = test_sents[3]
 
-print(' '.join(ld.sent2Tokens(example_sent)), end='\n')
-print("Predicted:", ' '.join(tagger.tag(ld.sent2Feats(example_sent))))
-print("Correct:  ", ' '.join(ld.sent2Labels(example_sent)))
+for example_sent in test_sents:
+    print(' '.join(ld.sent2Tokens(example_sent)), end='\n')
+    print("Predicted:", ' '.join(tagger.tag(ld.sent2Feats(example_sent))))
+    print("Correct:  ", ' '.join(ld.sent2Labels(example_sent)))

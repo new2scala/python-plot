@@ -1,0 +1,112 @@
+Melbourne NA B-NA
+, NA O
+3050 NA B-NA
+, NA O
+Australia NA B-NA
+
+Burlington NA B-NA
+, NA O
+VT NA B-NA
+05405-0068 NA I-NA
+, NA O
+USA NA B-NA
+
+The NA B-NA
+Walter NA I-NA
+and NA I-NA
+Eliza NA I-NA
+Hall NA I-NA
+Institute NA I-NA
+of NA I-NA
+Medical NA I-NA
+Research NA I-NA
+, NA O
+Melbourne NA B-NA
+, NA O
+3050 NA B-NA
+, NA O
+Australia NA B-NA
+
+The NA B-NA
+University NA I-NA
+of NA I-NA
+Vermont NA I-NA
+College NA I-NA
+of NA I-NA
+Medicine NA I-NA
+, NA O
+Burlington NA B-NA
+, NA O
+VT NA B-NA
+05405-0068 NA I-NA
+, NA O
+USA NA B-NA
+
+Barts NA B-NA
+& NA I-NA
+The NA I-NA
+London NA I-NA
+School NA I-NA
+of NA I-NA
+Medicine NA I-NA
+and NA I-NA
+Dentistry NA I-NA
+, NA O
+London NA B-NA
+E1 NA I-NA
+2AT NA I-NA
+, NA O
+UK NA B-NA
+
+Cambridgeshire NA B-NA
+CB10 NA I-NA
+1SA NA I-NA
+, NA O
+UK NA B-NA
+
+London NA B-NA
+SE1 NA I-NA
+9NH NA I-NA
+, NA O
+UK NA B-NA
+
+19700 NA B-NA
+Helix NA I-NA
+Drive NA I-NA
+, NA O
+Ashburn NA B-NA
+, NA O
+VA NA B-NA
+20147 NA I-NA
+, NA O
+USA NA B-NA
+
+Tallahassee NA B-NA
+, NA O
+FL NA B-NA
+32304 NA I-NA
+, NA O
+USA NA B-NA
+
+Pasteur NA B-NA
+Institute NA I-NA
+, NA O
+75724 NA B-NA
+Paris NA I-NA
+, NA O
+France NA B-NA
+
+Memorial NA B-NA
+Sloan NA I-NA
+Kettering NA I-NA
+Cancer NA I-NA
+Center NA I-NA
+, NA O
+New NA B-NA
+York NA I-NA
+, NA O
+NY NA B-NA
+10065 NA I-NA
+, NA O
+USA NA B-NA
+
