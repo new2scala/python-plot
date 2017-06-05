@@ -20,8 +20,8 @@ def load_conll2003():
     return train_sents, test_sents
 
 import process_aff_training_data as process_aff
-def load_aff1():
-    _train_data = pickle.load(open('aff1_train.pkl', 'rb'))
+def load_aff():
+    _train_data = pickle.load(open('aff2_train.pkl', 'rb'))
     #_train_data = _train_data[1:]
     result = []
     for d in _train_data:
@@ -31,7 +31,7 @@ def load_aff1():
         result.append(r)
     train_sents = result[100:]
     #test_sents = result[:100]
-    test_sents = process_aff.read_conll('data/test-1-converted.txt')
+    test_sents = process_aff.read_conll('data/test-2-converted.txt')
     return train_sents, test_sents
 
 

@@ -9,7 +9,7 @@ import pycrfsuite
 print(sklearn.__version__)
 
 import load_data as ld
-train_sents, test_sents = ld.load_aff1()
+train_sents, test_sents = ld.load_aff()
 
 print(train_sents[0])
 
