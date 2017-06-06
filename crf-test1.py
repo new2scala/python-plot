@@ -52,7 +52,28 @@ model_name = 'aff1.crfsuite'
 tagger = pycrfsuite.Tagger()
 tagger.open(model_name)
 
+def parse_tags(tags):
+    d = { }
+    for i, tag in enumerate(tags):
+        if (tag.startswith("B-")):
+            t = tag[2:]
+            d[i] = t
+    return d
+
+
 for example_sent in test_sents:
-    print(' '.join(ld.sent2Tokens(example_sent)), end='\n')
-    print("Predicted:", ' '.join(tagger.tag(ld.sent2Feats(example_sent))))
-    print("Correct:  ", ' '.join(ld.sent2Labels(example_sent)))
+    tokens = ld.sent2Tokens(example_sent)
+    tags = tagger.tag(ld.sent2Feats(example_sent))
+    dict = parse_tags(tags)
+
+    print(' '.join(tokens), end='\n')
+    print("Predicted:", ' '.join(tags))
+    s = []
+    for i, t in enumerate(tokens):
+        if (i in dict):
+            s.append("(%s)" % dict[i])
+        s.append(t)
+    print(' '.join(s), end='\n')
+
+    print("\n")
+    #print("Correct:  ", ' '.join(ld.sent2Labels(example_sent)))

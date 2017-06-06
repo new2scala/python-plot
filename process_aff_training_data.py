@@ -15,7 +15,7 @@ def read_conll(fname):
 
     return r
 
-lst = read_conll('data/train-2-converted.txt')
+lst = read_conll('/media/sf_work/aff-data/train-2-converted.txt')
 
 import pickle
 pickle.dump(lst, open("aff2_train.pkl", "wb"))
