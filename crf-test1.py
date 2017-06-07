@@ -60,7 +60,22 @@ def parse_tags(tags):
             d[i] = t
     return d
 
+def tag_sent(sent, tags):
+    tagged_sent = []
+    for i, token in enumerate(sent):
+        tagged_sent.append([sent[i][0], sent[i][1], tags[i]])
+    return tagged_sent
 
+def write_test_results(test_results, out_file):
+    with open(out_file, 'w') as f:
+        for sent in test_results:
+            for t in sent:
+                str = ' '.join(t) + '\n'
+                f.write(str)
+            f.write('\n')
+
+
+results = []
 for example_sent in test_sents:
     tokens = ld.sent2Tokens(example_sent)
     tags = tagger.tag(ld.sent2Feats(example_sent))
@@ -75,5 +90,9 @@ for example_sent in test_sents:
         s.append(t)
     print(' '.join(s), end='\n')
 
+    results.append(tag_sent(example_sent,tags))
     print("\n")
+
+write_test_results(results, '/media/sf_work/aff-data/test-2-result.txt')
+#print(len(results))
     #print("Correct:  ", ' '.join(ld.sent2Labels(example_sent)))
