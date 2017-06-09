@@ -47,7 +47,7 @@ def train_model(model_name):
 
 #model_name = 'conll2003-en.crfsuite'
 model_name = 'aff1.crfsuite'
-#train_model(model_name)
+train_model(model_name)
 
 tagger = pycrfsuite.Tagger()
 tagger.open(model_name)
@@ -74,8 +74,20 @@ def write_test_results(test_results, out_file):
                 f.write(str)
             f.write('\n')
 
+def calc_prec(tags, exp_tags):
+    if (len(tags) != len(exp_tags)):
+        print("different tag list length")
+        return 0
+    else:
+        correct = 0
+        for i, t in enumerate(tags):
+            if (t == exp_tags[i]):
+                correct = correct+1
+        return correct
 
 results = []
+all_tag_count = 0
+correct_tag_count = 0
 for example_sent in test_sents:
     tokens = ld.sent2Tokens(example_sent)
     tags = tagger.tag(ld.sent2Feats(example_sent))
@@ -83,6 +95,12 @@ for example_sent in test_sents:
 
     print(' '.join(tokens), end='\n')
     print("Predicted:", ' '.join(tags))
+    exp_tags = ld.sent2Labels(example_sent)
+    print(" Expected:", ' '.join(exp_tags))
+    correct_count = calc_prec(tags, exp_tags)
+    all_tag_count = all_tag_count+len(tags)
+    correct_tag_count = correct_tag_count+correct_count
+    print("%.2f%%" % (correct_count/len(tags)*100))
     s = []
     for i, t in enumerate(tokens):
         if (i in dict):
@@ -93,6 +111,9 @@ for example_sent in test_sents:
     results.append(tag_sent(example_sent,tags))
     print("\n")
 
-write_test_results(results, '/media/sf_work/aff-data/test-2-result.txt')
+print("Overall precision: %.2f%%" % (correct_tag_count/all_tag_count*100))
+
+
+#write_test_results(results, '/media/sf_work/aff-data/test-2-result.txt')
 #print(len(results))
     #print("Correct:  ", ' '.join(ld.sent2Labels(example_sent)))

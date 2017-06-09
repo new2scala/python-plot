@@ -31,7 +31,7 @@ def load_aff():
         result.append(r)
     train_sents = result[100:]
     #test_sents = result[:100]
-    test_sents = process_aff.read_conll('data/test-2-converted.txt')
+    test_sents = process_aff.read_conll('/media/sf_work/aff-data/test-2-annotated.txt')
     return train_sents, test_sents
 
 
