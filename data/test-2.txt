@@ -1,0 +1,707 @@
+Division of Molecular and Life Sciences, Pohang University of Science & Technology, Pohang, Korea.
+Research Institute, Genexine Co. Ltd., Pohang, Korea.
+Department of Internal Medicine, College of Medicine, The Catholic University of Korea, Seoul, Korea.
+Sir William Dunn School of Pathology, University of Oxford, South Parks Road, Oxford OX1 3RE, United Kingdom
+Center for Experimental Medicine, Institute of Medical Science, University of Tokyo, Tokyo 108-8639, Japan
+Division of Pathway Medicine and Edinburgh Infectious Diseases, University of Edinburgh, Edinburgh EH16 4SB, UK
+SynthSys (Synthetic and Systems Biology), University of Edinburgh, The King’s Buildings, Edinburgh EH9 3JD, UK
+Departments of Biochemistry and Biological Sciences, Yong Loo Lin School of Medicine, National University of Singapore, Singapore 117597
+Department of Molecular Biology, University of California, San Diego, La Jolla, CA 92093, USA
+Institute of Mass Spectrometry, College of Medicine, Grove Building, Swansea University, Singleton Park, Swansea SA2 8PP, UK
+Department of Developmental Biology, Washington University School of Medicine, St. Louis, MO 63011, USA
+Max von Pettenkofer-Institut, Ludwig-Maximilians-Universität München, Genzentrum, Feodor Lynen Str. 25, 81377 Munich, Germany
+Facultad de Medicina, Institut d’Investigacions Biomèdiques August Pi i Sunyer, Rosselló 149-153, Barcelona 08036, Spain
+William Harvey Research Institute, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, Charterhouse Square, London EC1M 6BQ, UK
+Centre Médical Universitaire, Rue Michel-Servet 1, Geneva CH-1211, Switzerland
+Centre for Trauma Sciences, Barts and The London School of Medicine and Dentistry, Queen Mary University of London, Mile End Road, London E1 4NS, UK
+Department of Clinical Pathobiochemistry, University of Dresden, Fetscherstrasse 74, Dresden 01307, Germany
+Oral Immunity and Inflammation Unit, NIDCR, NIH, Bethesda, MD 20892, USA
+Faculty of Biology, Medicine and Health, University of Manchester, Manchester M13 9PT, UK
+Manchester Collaborative Centre for Inflammation Research (MCCIR), University of Manchester, Manchester M13 9NT, UK
+Immunity at Barrier Sites Initiative, NIAID, NIH, Bethesda, MD 20892, USA
+Mucosal Immunology Section, Laboratory of Parasitic Diseases, NIAID, NIH, Bethesda, MD 20892, USA
+Fungal Pathogenesis Unit, NIAID, NIH, Bethesda, MD 20892, USA
+Department of Pathology and Molecular Medicine, McMaster University, Hamilton, ON L8N 3Z5, Canada
+Institute of Infection and Immunity, School of Medicine, Cardiff University, Cardiff CF14 4XN, UK
+Cancer and Inflammation Program, Center for Cancer Research, NCI, NIH, Bethesda, MD 20892, USA
+Division of Periodontology, Department of Oral Health and Diagnostic Sciences, UConn Health Center, Farmington, CT 06030, USA
+Center for Immunology, Department of Medicine, Division of Rheumatic and Autoimmune Diseases, University of Minnesota, Minneapolis, MN, 55455, USA
+Department of Biosciences, University of Gloucestershire, Cheltenham, GL50 4AZ UK 
+Department of Pathology, University of Cambridge, Cambridge, CB2 1QP UK 
+Department of Veterinary Medicine, University of Cambridge, Cambridge, CB3 0ES UK 
+University of Melbourne
+Southampton University Hospital
+Southampton University Hospital
+Department of Molecular Biology and Biochemistry and The Institute for Immunology, University of California
+Department of Epidemiology and Population Health, Institute of Infection and Global Health, University of Liverpool
+Department of Molecular and Cell Biology, University of California
+Department of Infection Biology, Institute of Infection and Global Health, University of Liverpool
+Department of Medicine, Center for Pharmacogenomics, Washington University School of Medicine, St. Louis, MO 63110, USA
+Center for Anatomy and Cell Biology, Medical University of Vienna, 1090 Vienna, Austria
+Department of Biotechnology, College of Life Science and Biotechnology, Yonsei University, Seoul, 120–749 Korea
+Department of Cell and Molecular Biology, Biomedical Center, Uppsala University, SciLifeLab Uppsala, Box 596, S-75124 Uppsala, Sweden
+Department of Molecular and Cellular Biology, California Institute for Quantitative Biosciences, University of California, Berkeley, CA 94720-3220, USA
+Department of Medical Biochemistry and Molecular Biology, University of Saarland, Medical Center, Building 45, 66421 Homburg, Germany
+Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT 06520-8114, USA
+Centre de Génétique Moléculaire, Centre National de la Recherche Scientifique, affiliated with Université Paris-Sud, Gif-sur-Yvette 91198, France
+MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge Biomedical Campus, Cambridge CB2 0QH, UK
+Department of Microbiology, University of Tennessee, Knoxville, TN 37996, USA
+London Research Institute, Cancer Research UK, Clare Hall Laboratories, South Mimms, Herts EN6 3LD, UK
+Blavatnik School of Computer Science, Tel-Aviv University, Tel Aviv 69978, Israel
+Centre for Genetics and Genomics, University of Nottingham, Queen's Medical Centre, Nottingham, NG7 2UH, UK
+Department of Biochemistry, University of Oxford, South Parks Road, Oxford OX1 3QU, UK
+School of Medicine, University of Nottingham, Queen's Medical Centre, Nottingham NG7 2UH, UK
+School of Health Sciences and Social Care, Division of Biosciences, Brunel University, Uxbridge, London UB8 3PH, UK
+The DNA-proteins Interaction Unit, School of Biochemistry, University of Bristol, University Walk, Bristol BS8 1TD, UK
+MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge Biomedical Campus, Cambridge, CB2 0QH, UK
+Department of Neurology, University of Rochester, Rochester, NY 14642, USA
+Department of Chemistry, University of Rochester, Rochester, NY 14642, USA
+Division of Pre-clinical Innovation, National Center for Advancing Translational Sciences, National Institutes of Health, Bethesda, MD 20892, USA
+Department of Chemistry, Scripps Florida, Jupiter, FL 33458, USA
+Department of Dermatology, University of Rochester, Rochester, NY 14642, USA
+Department of Chemical and Biological Engineering, Northwestern University, 2145 Sheridan Road, Evanston, IL 60208, USA
+Interdepartmental Program in Biological Sciences, Northwestern University, 2205 Tech Drive, Evanston, IL 60208, USA
+Northwestern Institute on Complex Systems, Northwestern University, 600 Foster Street, Evanston, IL 60208, USA
+Institute for Bionanotechnology in Medicine, Northwestern University, 303 E. Superior, Chicago, IL 60611, USA
+Chemistry of Life Processes Institute, Northwestern University, 2170 Campus Drive, Evanston, IL 60208, USA
+Department of Chemistry and Biochemistry, Center for Retrovirus Research and Center for RNA Biology, The Ohio State University, Columbus, OH 43210, USA
+Department of Physics, Northeastern University, Boston, MA 02115, USA
+Department of Biochemistry, Molecular Biology and Biophysics, University of Minnesota, Minneapolis, MN 55455, USA
+AIDS and Cancer Virus Program, Leidos Biomedical Research, Inc., Frederick National Laboratory for Cancer Research, Frederick, MD 21702, USA
+Department of Radiation Biology, Beckman Research Institute of the City of Hope, 1500 E Duarte Road, Duarte, CA 91010, USA
+Irell and Manella Graduate School of Biological Sciences, Beckman Research Institute of the City of Hope, 1500 E Duarte Road, Duarte, CA 91010, USA
+Department of Biochemistry and Molecular Biology, Center for Epigenetics, Genetics Institute, Powell Gene Therapy Center, Gainesville, Florida, USA
+Departmentof Biology, University of Crete, GR1409 Heraklion, Greece
+Divisionof Molecular Oncology, Biomedical Sciences Research Center “Alexander Fleming”, Vari GR 16672, Greece
+Departmentof Molecular Genetics and Microbiology, College of Medicine, University of Florida, Gainesville, Florida, 32610, USA
+University of Southampton, Faculty of Medicine,
+Southampton SO16 6YD, UK
+University of Nottingham, School of Chemistry, Centre for
+Biomolecular Sciences, Nottingham NG7 2RD, UK
+ICGEB, Padriciano 99, 34149 Trieste, Italy
+University of Evry, iSSB, F-91000 Evry, France
+IISER Mohali, SAS Nagar, Manauli, PO 140306, Mohali, Punjab, India
+Wadsworth Center, New York State Department of Health, Center for Medical Science, 150 New Scotland Avenue, Albany, NY 12208, USA
+Department of Genetics and Yale Stem Cell Center, Yale University, New Haven, CT 06520, USA
+Manchester Institute of Biotechnology, The University of Manchester, Manchester M1 7DN, UK
+School of Computer Science, The University of Manchester, Manchester M13 9PL, UK
+School of Chemistry, The University of Manchester, Manchester M13 9PL, UK
+Faculty of Medical and Human Sciences, The University of Manchester, Manchester M13 9PT, UK
+Model Systems for Infection and Immunity, Helmholtz Centre for Infection Research, Inhoffenstrasse 7, 38124 Braunschweig, Germany
+Gene Regulation and Differentiation, Helmholtz Centre for Infection Research, Inhoffenstrasse 7, 38124 Braunschweig, Germany
+Division of Mycobacterial Research, MRC National Institute for Medical Research, Mill Hill, London, NW7 1AA, UK
+Department of Molecular Reproduction, Development and Genetics, Indian Institute of Science, Bangalore 560012, India
+Centre for Molecular Bacteriology and Infection, Imperial College London, SW7 2AZ, UK
+Max-Planck-Institute for Molecular Genetics, Department of Vertebrate Genomics, Ihnestrasse 63-73, 14195 Berlin, Germany
+INRA, Institut Jean-Pierre Bourgin, UMR1318, ERL CNRS 3559,Saclay Plant Sciences, RD10, 78000 Versailles, France
+AgroParisTech, Institut Jean-Pierre Bourgin, UMR 1318, ERL CNRS 3559, Saclay Plant Sciences,RD10, 78000 Versailles, France
+MRC Human Genetics Unit, MRC Institute of Genetics and Molecular Medicine at University of Edinburgh, Crewe Road, Edinburgh EH4 2XU, UK
+Department of Biological Sciences, Graduate School of Science, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan
+Faculty of Medicine, The University of Tokyo, 7-3-1 Hongo, Bunkyo-ku, Tokyo 113-0033, Japan
+Laboratoire de Physique, Ecole Normale Supérieure de Lyon, CNRS UMR 5672, Lyon 69007, France
+Institute of Human Genetics, CNRS UPR 1142, Montpellier 34000, France
+Lineberger Comprehensive Cancer Center, Department of Biochemistry and Biophysics, University of North Carolina, Chapel Hill, NC 27514, USA
+Curriculum in Genetics and Molecular Biology, University of North Carolina, Chapel Hill, NC 27599, USA
+Center for Systems Biology, Soochow University, Suzhou 215006, China
+MOE Key Laboratory of Model Animal for Disease Study, Model Animal Research Center, Medical School of Nanjing University, Nanjing 210061, China
+School of Mathematical Sciences, Soochow University, Suzhou 215006, China
+Collaborative Innovation Center for Genetics and Development, Fudan University, Shanghai 200433, China
+Molecular Cellular and Developmental Biology Program, Division of Biology, Kansas State University, Manhattan, KS 66506, USA
+Arthropod Genomics Center, Kansas State University, Manhattan, KS 66506, USA
+Department of Biological Chemistry and Molecular Pharmacology, Harvard Medical School, Boston, MA 02115, USA
+USDA-ARS, Hard WinterWheat Genetics Research Unit, Kansas State University, Manhattan, KS 66506
+Department of Chemistry, University of Cambridge, Cambridge, UK
+Department of Physiology, Development and Neuroscience, University of Cambridge, Cambridge, UK
+Department of Genetics, University of Cambridge, Cambridge, UK
+Cambridge Systems Biology Centre, University of Cambridge, Cambridge, UK
+University of Cincinnati College of Medicine, Department of Molecular Genetics, Biochemistry and Microbiology, 231 Albert Sabin Way CARE4836, Cincinnati, OH 45267-0524, USA
+Joint BSC-CRG-IRB Research Program in Computational Biology, Institute for Research in Biomedicine (IRB Barcelona), Baldiri Reixac 10, Barcelona 08028, Spain
+Bases Moléculaires et Structurales des Systèmes Infectieux, Univ. Lyon I/CNRS UMR 5086, IBCP, 7 Passage du Vercors, Lyon 69367, France
+Departament de Bioquimica, Facultat de Biologia, Avgda Diagonal 647, Barcelona 08028, Spain
+Department of Cancer and Inflammation Research, University of Southern Denmark, Odense, DK-5000, Denmark
+Department of Cardiovascular and Renal Research, University of Southern Denmark, Odense, DK-5000, Denmark
+The Lundbeckfonden Center of Excellence NanoCAN, University of Southern Denmark, Odense, DK-5000, Denmark
+The Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, Copenhagen, DK-2200, Denmark
+Department of Cellular and Molecular Medicine, University of Copenhagen, DK-2200, Denmark
+Department of Oncology, Odense University Hospital, Odense, DK-5000, Denmark
+Wellcome Trust Sanger Institute, Hinxton, Cambridge, CB10 1HH, UK
+Key laboratory of Regenerative Biology, GIBH, Chinese Academy of Sciences, Guangzhou 510530, China
+Shanghai Institute of Immunology, Shanghai Jiaotong University School of Medicine Shanghai 200025. China
+Wellcome Trust-Medical Research Council Cambridge Stem Cell Institute, Universityof Cambridge, Tennis Court Rd, Cambridge CB2 1QR, UK
+Department of Cellular and Molecular Pharmacology, Rutgers Robert Wood Johnson Medical School, Piscataway, NJ 08854, USA
+Institute of Protein Research, Russian Academy of Sciences, Pushchino, Moscow Region 142290, Russia
+Belozersky Institute of Physico-Chemical Biology, Lomonosov Moscow State University, Moscow, 119992, Russia
+Engelhardt Institute of Molecular Biology, Russian Academy of Sciences, Moscow, 119992, Russia
+Centre for Synthetic and Systems Biology (SynthSys), University of Edinburgh, Edinburgh, EH9 3JD, UK
+Wellcome Trust Centre for Cell Biology, University of Edinburgh, Edinburgh, EH9 3JR, UK
+MRC Human Genetics Unit, University of Edinburgh, Western General Hospital, Crewe Road, Edinburgh, EH4 2XU, UK
+Department of Physics and FAS Center for Systems Biology, Harvard University, Cambridge, MA 02138, USA
+CEA, iBiTecS, SBIGeM, Gif-sur-Yvette, F-91191, France
+CNRS-Université Paris Sud, FRE 3377, Gif-sur-Yvette, F-91191, France
+CEA, iBiTecS, SB2SM, Laboratoire de Biologie Structurale et Radiobiologie, Gif-sur-Yvette, F-91191, France
+CNRS, UMR8221, Gif-sur-Yvette, F-91191, France
+Division of Biomedical Statistics and Informatics, Mayo Clinic, Rochester, MN 55905, USA
+Division of Clinical Pharmacology, Department of Molecular Pharmacology and Experimental Therapeutics, Mayo Clinic, 200 First Street SW, Rochester, MN 55905, USA
+Fluidigm Corporation, South San Francisco, CA 94080, USA
+Department of Cancer Biology, Mayo Clinic, 4500 San Pablo Road, Jacksonville, FL 32224, USA
+Department of Chemistry and Biochemistry, Utah State University, Logan, UT 84322-0300, USA
+Department of Microbiology and Molecular Genetics, University of Texas Health Science Center-Houston, Houston, TX 77030, USA
+Biological Physics Laboratory, Physics Institute, Universidad Autónoma de San Luis Potosí, Alvaro Obregon 64, San Luis Potosí, S.L.P. 78290, México
+División de Biología Molecular, IPICYT, Camino a la Presa San Jose s/n, San Luis Potosí, SLP 78216, México
+Center for Nanociences and Nanotechnology, Universidad Nacional Autónoma de México, Km. 107 Carretera Tijuana-Ensenada s/n, Baja California 22800, México
+Centre de Desenvolupament de Sensors, Instrumentación i Sistemes, Universitat Politecnica de Catalunya, Rambla de Sant Nebridi 10, E-0822, Terrasa, España
+Molecular Biophysics Laboratory, Physics Institute, Universidad Autónoma de San Luis Potosí, Alvaro Obregon 64, San Luis Potosí, SLP 78290, México
+Delaware Biotechnology Institute and Department of Plant and Soil Sciences, University of Delaware, Newark, DE 19711, USA
+Kimmel Center for Biology and Medicine at the Skirball Institute and Department of Microbiology, New York University School of Medicine, New York, NY 10016, USA
+Department of Life Science, Hallym University, Chuncheon, Gangwon, Republic of Korea
+College of Nanoscale Science and Engineering, SUNY-Polytechnic Institute, Albany, NY 12203, USA
+Centre for Plant Biotechnology and Genomics (CBGP), Universidad Politécnica de Madrid, Campus de Montegancedo, 28223 Pozuelo de Alarcón, Madrid, Spain
+Disease & Stress Biology Department, John Innes Centre, Colney lane, Norwich NR4 7UH, UK
+Department of Biochemistry, University of Wisconsin-Madison, Madison, WI 53706, USA
+Department of Molecular Design of Pharmaceutics, Faculty of Pharmaceutical Sciences, Hokkaido University, Kita 12, Nishi 6, Kita-ku, Sapporo, Hokkaido 060-0812, Japan
+Institute of Physical and Theoretical Chemistry, Rheinische Friedrich-Wilhelms-University Bonn, 53115 Bonn, Germany
+Institute for Organic Chemistry and Chemical Biology, Buchmann Institute for Molecular Life Sciences, Goethe University Frankfurt, Max-von-Laue-Str. 9, 60438 Frankfurt, Germany
+Departamento de Bioquímica y Biología Molecular and ERI Biotecmed, Facultad de Biológicas, Universitat de València, C/Dr. Moliner 50, E46100 Burjassot, Spain
+European Molecular Biology Laboratory (EMBL), Genome Biology Unit, Meyerhofstrasse 1, 69117 Heidelberg, Germany
+Instituto de Biomedicina de Sevilla (IBiS), Hospital Virgen del Rocío-CSIC-Universidad de Sevilla, and Departamento de Genética, Universidad de Sevilla, 41013 Seville, Spain
+Stanford University School of Medicine, Department of Genetics, Stanford, CA 94305, USA
+Stanford Genome Technology Center, Stanford University, Palo Alto, CA 94304, USA
+Biomedical Sciences Research Center ‘Alexander Fleming’, 34 Fleming str, 16672, Vari, Greece
+Department of Molecular Biology and Biotechnology, The University of Sheffield, Firth Court, Western Bank, Sheffield, UK
+Academic Urology Unit, The University of Sheffield, Beech Hill Road, Sheffield, UK
+Sheffield Institute for Translational Neuroscience, The University of Sheffield, 385a Glossop Road, Sheffield, UK
+Department of Chemical and Biological Engineering, The University of Sheffield, Mappin Street, Sheffield, UK
+Department of Biochemistry, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA
+Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA
+Division of Structural Biology, Wellcome Trust Centre for Human Genetics, University of Oxford, Roosevelt Drive, Oxford OX3 7BN, UK
+Sir William Dunn School of Pathology, University of Oxford, South Parks Road, Oxford OX1 3RE, UK
+Department of Biochemistry and Molecular Genetics, University of Colorado School of Medicine, Aurora, CO 80045, USA
+College of Bioscience and Bioengineering, Hebei University of Science and Technology, Shijiazhuang 050018, P. R. China
+Department of Biochemistry, Division of Applied Life Science (BK21 Plus Program), PMBBRC, Gyeongsang National University, Jinju 660-701, Korea
+Integrative Genomics of Ageing Group, Institute of Integrative Biology, University of Liverpool, Liverpool, UK
+Novo Nordisk Foundation Center for Protein Research, Faculty of Health and Medical Sciences, University of Copenhagen, 2200 Copenhagen, Denmark
+Center for Biological Sequence Analysis, Technical University of Denmark, 2800 Lyngby, Denmark
+Intomics A/S, 2800 Lyngby, Denmark
+Laboratory of Bioinformatics, National Institute of Biomedical Innovation (NIBIO), 7-6-8 Saito-Asagi, Ibaraki, Osaka 567-0085, Japan
+Computational Biology Research Center (CBRC), National Institute of Advanced Industrial Science and Technology (AIST), 2-4-7 Aomi, Koto-ku, Tokyo 135-0064, Japan
+Drug Discovery Informatics Group, System Solution Division, Level Five Co. Ltd., Shiodome Shibarikyu Bldg., 1-2-3 Kaigan, Minato-ku, Tokyo 105-0022, Japan
+McKusick-Nathans Institute of Genetic Medicine, Johns Hopkins University School of Medicine, Baltimore, MD 21287, USA
+FS Consulting, LLC, Salem, MA 01970, USA
+Biobyte solutions GmbH, Bothestr 142, 69126 Heidelberg, Germany
+EMBL, Meyerhofstrasse 1, 69117 Heidelberg, Germany
+Computational and Systems Biology, Genome Institute of Singapore, Singapore 138672, Singapore
+Cancer Therapeutics and Stratified Oncology, Genome Institute of Singapore, Singapore 138672, Singapore
+Department of Molecular Oncology, John Wayne Cancer Institute, Santa Monica, CA 90404, USA
+The Jackson Laboratory for Genomic Medicine, Farmington, CT 06030, USA
+University of Edinburgh, Queen's Medical Research Institute, University/BHF Centre for Cardiovascular Science, 47 Little France Crescent, Edinburgh EH16 4TJ, UK
+Department of Molecular & Human Genetics, Baylor College of Medicine, Houston, TX 77030, USA
+Verna and Marrs McLean Department of Biochemistry and Molecular Biology, Baylor College of Medicine, Houston, TX 77030, USA
+Department of Pharmacology, Baylor College of Medicine, Houston, TX 77030, USA
+Dan L. Ducan Cancer Center, Baylor College of Medicine, Houston, TX 77030, USA
+Program in Integrative and Molecular Biomedical Sciences, Baylor College of Medicine, Houston, TX 77030, USA
+Program in Developmental Biology, Baylor College of Medicine, Houston, TX 77030, USA
+Department of Pathology and Immunology, Baylor College of Medicine, Houston, TX 77030, USA
+Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030, USA
+Department of Physics, National University of Singapore, 2 Science Drive 3, 117542, Singapore
+Genomes Structure and Instability, Sorbonne Universities, National Museum of Natural History, Inserm U 1154, CNRS UMR 7196, 75005 Paris, France
+Laboratoire Léon Brillouin, UMR 12 CEA/CNRS, CEA-Saclay, Gif sur Yvette Cedex 91191, France
+Department of Molecular Biology, University of Gdansk, Wita Stwosza 59, 80-308 Gdansk, Poland
+Université Paris Diderot, Sorbonne Paris Cité, 75013 Paris, France
+Institute of Structural Biology, Helmholtz Zentrum München, Neuherberg D-85764, Germany
+Biomolecular NMR and Center for Integrated Protein Science Munich (CIPSM), Department Chemie, Technische Universität München, Garching D-85747, Germany
+Division of Molecular Biology of the Cell II, DKFZ-ZMBH Alliance, German Cancer Research Center, Heidelberg D-69120, Germany
+Department of Cell Research and Immunology, The George S. Wise Faculty of Life Sciences, Tel Aviv University, 6997801 Tel Aviv, Israel
+Key Laboratory of Genomics and Precision Medicine, Beijing Institute of Genomics, Chinese Academy of Sciences, Beijing 100101, China
+University of Chinese Academy of Sciences, Beijing 100049, China
+Hebei North University, Zhangjiakou 075000, China
+REAC/TS, Oak Ridge Associated Universities, Oak Ridge Institute of Science and Engineering, Oak Ridge, TN 37830, USA
+Center for Radiological Research, Department of Radiation Oncology, Columbia University Medical Center, New York, NY 10032, USA
+Myles H. Thaler Center for AIDS and Human Retrovirus Research, Department of Microbiology, Immunology, and Cancer Biology, University of Virginia, Charlottesville, VA 22908, USA
+Center for Cancer Research, National Cancer Institute, NIH, Frederick, MD 21702, USA
+Department of Molecular Biology and Biochemistry, Simon Fraser University, Burnaby, BC V5A 1S6, Canada
+M.G. DeGroote Institute for Infectious Disease Research, Department of Biochemistry and Biomedical Sciences, DeGroote School of Medicine, McMaster University, Hamilton, ON L8S 4K1, Canada
+Department of Pharmacology, Dalhousie University, Halifax, NS B3H 4R2, Canada
+Department of Computer Science, Ben-Gurion University, Beer-Sheva 84105, Israel
+Department of Computational Biology, Vavilov Institute of General Genetics, Russian Academy of Science, Moscow 11933, Russia
+Agilent Laboratories, Agilent Technologies, Tel Aviv 49527, Israel
+Microsoft R&D Center, Herzliya 46725 , Israel
+Laboratory of Computational Biology, Computer Science Department, Israel Institute of Technology, Haifa 32000, Israel
+Center for Bioinformatics, Saarland University, 66041 Saarbrucken, Germany
+Wellcome Trust Sanger Institute, Welcome Trust Genome Campus, Hinxton, CB10 1SD, UK
+The Weatherall Institute Of Molecular Medicine, University of Oxford, Oxford, OX3 9DS, UK
+Genentech, Inc. 1 DNA Way South San Francisco, CA 94080, USA
+Center for Translational Genomics and Bioinformatics San Raffaele Scientific Institute, Via Olgettina 58, 20132 Milan, Italy
+Dept of Molecular Biotechnology and Health Sciences University of Turin, Italy
+European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK
+Institute for Integrative Biology of the Cell (I2BC), CEA, CNRS, Université Paris Sud, 1 avenue de la terrasse, 91198 Gif sur Yvette, France
+Department of Electrical and Computer Engineering, Faculty of Engineering, King Abdulaziz University, Jeddah, Saudi Arabia
+MRC Human Genetics Unit, Institute of Genetics and Molecular Medicine, Western General Hospital, Edinburgh, EH4 2XU, UK
+Sigenae, INRA, Castanet-Tolosan, France
+Department of Genetics, University of Leicester, University Road, Leicester, LE1 7RH, UK
+MRC Harwell, Harwell Science and Innovation Campus, Oxfordshire, OX11 0RD, UK
+International Potato Center (CIP), Lima, 1558, Peru
+Department of Energy, Joint Genome Institute, Walnut Creek, USA
+Centre for Molecular Oncology, Barts Cancer Institute, Queen Mary University of London, Charterhouse Square, London EC1M 6BQ, UK
+IRISA-INRIA, Campus de Beaulieu 35042 Rennes, France
+Laboratory of Translational Genomics, Centre for Integrative Biology, University of Trento, Trento, Italy
+Center for Mathematical Modeling and Center for Genome Regulation, University of Chile, Beauchef 851, 7th floor, Chile
+Plate-forme bio-informatique Genotoul, Mathématiques et Informatique Appliquées de Toulouse, INRA, Castanet-Tolosan, France
+Oncology Computational Biology, Pfizer, La Jolla, USA
+Catalan Institute for Research and Advanced Studies (ICREA), Passeig Lluis Companys 23, E-08010 Barcelona, Spain
+Universitat Pompeu Fabra, Dr Aiguader 88 E-08003 Barcelona, Spain
+Kasuza DNA Research Institute, Chiba, 292–0818, Japan
+HUGO Gene Nomenclature Committee (HGNC), European Bioinformatics Institute (EMBL-EBI) Wellcome Trust Genome Campus, Hinxton, CB10 1SD, UK
+Medicinal Bioconvergence Research Center, College of Pharmacy, Seoul National University, Seoul 151–742, Republic of Korea
+Department of Molecular Medicine and Biopharmaceutical Sciences, Seoul National University, Seoul 151–742, Republic of Korea
+Research Institute of Pharmaceutical Sciences, College of Pharmacy, Seoul National University, Seoul 151–742, Republic of Korea
+Information Center for Bio-pharmacological Network, Seoul National University, Suwon 443–270, Republic of Korea
+Ontario Institute for Cancer Research, Toronto, M5G 0A3, Canada
+RIKEN Center for Life Science Technologies (CLST), Division of Genomic Technologies (DGT), Kanagawa, 230–0045, Japan
+School of Dentistry and Dental Research Institute, University of California Los Angeles (UCLA), Los Angeles, CA 90095–1668, USA
+Iowa State Univeristy, USA
+Mouse Genomic Informatics Group, The Jackson Laboratory, Bar Harbor, ME 04609, USA
+RIKEN Preventive Medicine and Diagnosis Innovation Program, Saitama 351–0198, Japan
+INRA URGI Centre de Versailles, bâtiment 18 Route de Saint Cyr 78026 Versailles, France
+Center for Bioinformatics, State Key Laboratory of Protein and Plant Gene Research, College of Life Sciences, Peking University, Beijing, 100871, P.R. China
+VectorBase, European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, CB10 1SD, UK
+Institute of Molecular Medicine, Peking University, Beijing, China
+Computer Laboratory, University of Cambridge, Cambridge, CB3 0FD, UK
+Department of Mathematical Engineering, University of Chile, Av. Beauchef 851, 5th floor, Santiago, Chile
+Departament of Biochemistry, Faculty of Science for Girls, King Abdulaziz University, Jeddah, Saudi Arabia
+Department of Medical Epidemiology and Biostatistics, Karolinska Institutet, PO Box 281, 17177 Stockholm, Sweden
+Inserm U1085 IRSET, University of Rennes 1, 35042 Rennes, France
+Department of Biological Sciences, Faculty of Science for Girls, King Abdulaziz University, Jeddah, Saudi Arabia
+Cold Spring Harbor Laboratory, Cold Spring Harbor, NY 11724, USA
+Eagle Genomics Ltd., Babraham Research Campus, Cambridge, CB22 3AT, UK
+Human Longevity, Inc. 10835 Road to the Cure 140 San Diego, CA 92121, USA
+Department of Biological Sciences, Faculty of Science, King Abdulaziz University, Jeddah, Saudi Arabia
+European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SD, UK
+HHMI Janelia Research Campus, 19700 Helix Drive, Ashburn, VA 20147, USA
+Department of Computer Science, University of Montana, Social Sciences Building Room 412, Missoula MT 59812, USA
+Department of Biology and Biotechnology ‘Charles Darwin’, Sapienza University of Rome, 00185 Rome, Italy
+Institute Pasteur-Fondazione Cenci-Bolognetti, Sapienza University of Rome, 00185 Rome, Italy
+Adolf-Butenandt-Institut, Ludwig-Maximilians-Universität, 80336 München, Germany
+Institute for Research on Cancer and Aging, Nice (IRCAN) CNRS UMR 7284/INSERM U1081, University of Nice Sophia Antipolis, 06107 Nice, France
+Department of Medical Genetics, Hospital, CHU of Nice, 06202 Nice, France
+Department of Protein–DNA Interactions, Institute of Biotechnology, Vilnius University, Graiciuno 8, LT-02241 Vilnius, Lithuania
+Key Laboratory of Carcinogenesis and Translational Research, Ministry of Education and State Key Laboratory of Natural and Biomimetic Drugs, Peking University Health Science Center, #38 Xue Yuan Road, Beijing 100191, China
+Laboratory of Molecular Cell Biology and Tumor Biology, Department of Anatomy, Histology and Embryology, School of Basic Medical Sciences, Peking University Health Science Center, #38 Xue Yuan Road, Beijing 100191, China
+Department of Physics, Harvard University, Cambridge, MA 02138, USA
+School of Engineering and Applied Sciences, Harvard University, Cambridge, MA 02138, USA
+Laboratoire de Biochimie Théorique, CNRS UPR 9080, Univ. Paris Diderot, Sorbonne Paris Cité, IBPC, Paris, France
+Department of Biosciences and Nutrition, Karolinska Institute, Huddinge, 14183, Sweden
+Science for Life Laboratory, Karolinska Institute, Solna, 17121, Sweden
+Science for Life Laboratory, KTH-Royal Institute of Technology, Solna, 17121, Sweden
+Department of Immunology, Genetics and Pathology, Science for Life Laboratory, Uppsala University, Uppsala, 751 85, Sweden
+RIKEN Preventive Medicine and Diagnosis Innovation Program, Wako, Saitama 351-0198, Japan
+RIKEN Center for Life Science Technologies (CLST), Division of Genomic Technologies, RIKEN Yokohama Institute, Tsurumi-ku, Yokohama, 230-0045, Japan
+RIKEN Omics Science Center1‡, Yokohama, Kanagawa, 230-0045, Japan
+Department of Molecular & Cell Biology, University of California, Berkeley, CA 94720, USA
+Joint BioEnergy Institute, 5885 Hollis St, Emeryville, CA 94608, USA
+Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, CA 94720, USA
+Department of Integrative Biology, University of California, Berkeley, CA 94720, USA
+Department of Plant & Microbial Biology, University of California, Berkeley, CA 94720, USA
+Department of Chemistry, University of California, Berkeley, CA 94720, USA
+Wyss Institute for Biologically Inspired Engineering, Harvard University, 3 Blackfan Circle, Boston, MA 02115, USA
+School of Engineering and Applied Sciences, Harvard University, 29 Oxford Street, Cambridge, MA 02143, USA
+Department of Genetics, Harvard Medical School, 77 Avenue Louis Pasteur, Boston, MA 02115, USA
+Department of Biochemistry & Goodman Cancer Research Centre, McGill University, Montreal, Quebec H3A 1A3, Canada
+Central European Institute of Technology (CEITEC), Masaryk University, Campus Bohunice, Kamenice 5, 625 00 Brno, Czech Republic
+Institute of Biophysics, Academy of Sciences of the Czech Republic, Kralovopolska 135, 612 65 Brno, Czech Republic
+National Center for Biomolecular Research, Faculty of Science, Masaryk University, Campus Bohunice, Kamenice 5, 625 00 Brno, Czech Republic
+UCL School of Pharmacy, University College London, 29–39 Brunswick Square, London WC1N 1AX, UK
+Department of Molecular Medicine, University of Padua, via Gabelli 63, 35121 Padua, Italy
+The RNA Institute, University at Albany-SUNY, Albany, NY 12222, USA
+Institute of Life Science, Swansea University School of Medicine, Swansea University, SA2 8PP, UK
+Institute of Cancer & Genetics, School of Medicine, Cardiff University, CF14 4XN, UK
+School of Pharmacy and Pharmacology, Cardiff University, CF10 3NB, UK
+UCSF/UC Berkeley Graduate Program in Bioengineering, University of California, Berkeley, CA 94720, USA
+Department of Chemistry, University of California, Berkeley, CA 94720, USA
+Department of Biological Sciences, University of Pittsburgh, Pittsburgh, PA 15260, USA
+Photon Sciences Directorate, Bldg 745 L107 Brookhaven National Laboratory Upton, NY 11973, USA
+Department of Oncology, University of Oxford, Churchill Hospital, Oxford, OX3 7LE, UK
+CNRS-UMR5096 LGDP, 66860 Perpignan, France
+Université de Perpignan-UMR5096 LGDP, 66860 Perpignan, France
+Institute of Atomic and Molecular Sciences, Academia Sinica, Taipei 10617, Taiwan
+Institute of Biomedical Engineering, National Chung-Hsing University, Taichung 40227, Taiwan
+Department of Agricultural Chemistry, National Taiwan University, Taipei 10617, Taiwan
+Department of Biochemical Science and Technology, National Taiwan University, Taipei 10617, Taiwan
+Institute of Biochemistry and Molecular Biology, National Taiwan University College of Medicine, Taipei 10051, Taiwan
+Department of Otolaryngology, National Taiwan University Hospital and National Taiwan University College of Medicine, Taipei 10051, Taiwan
+Institute of Pharmacy and Molecular Biotechnology, Heidelberg University, Im Neuenheimer Feld 364, Heidelberg 69120, Germany
+Department of Microbiology, Immunology, and Molecular Genetics, University of California, Los Angeles, Los Angeles, CA 90095, USA
+Department of Biological Sciences, Louisiana State University, Baton Rouge, LA 70803, USA
+Department of Developmental Biology, Stanford University, Stanford, CA 94305, USA
+Department of Computer Science, Stanford University, Stanford, CA 94305, USA
+Division of Cancer Studies, King's College London, London SE11UL, UK
+Department of Genetic Medicine and Development, University of Geneva Medical School, Swiss Institute of Bioinformatics, rue Michel-Servet 1, 1211 Geneva, Switzerland
+European Molecular Biology Laboratory, European Bioinformatics Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SD, UK
+Informatics and Bio-computing Platform, Ontario Institute for Cancer Research, Toronto, ON M5G0A3, Canada
+Division of Biology and Biological Engineering 156–29, California Institute of Technology, Pasadena, CA 91125, USA
+Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge CB10 1SA, UK
+Department of Genetics, Washington University School of Medicine, St. Louis, MO 63110, USA
+Howard Hughes Medical Institute, California Institute of Technology, Pasadena, CA 91125, USA
+European Molecular Biology Laboratory, European Bioinformatics Institute (EMBL-EBI), Wellcome Genome Campus, Hinxton, Cambridgeshire CB10 1SD, UK
+Digital Science, London N1 9XW, UK
+NetValue Ltd, Hamilton 3240, New Zealand
+McKinsey & Company, London SW1Y 4UH, UK
+SIB Swiss Institute of Bioinformatics, Quartier Sorge, Bâtiment Génopode, CH-1015 Lausanne, Switzerland; University of Basel, Klingelbergstrasse 50–70, CH-4056 Basel, Switzerland; Friedrich Miescher Institute for Biomedical Research (FMI), Maulbeerstrasse 66, CH-4058 Basel, Switzerland; Swiss Tropical and Public Health Institute, Socinstrasse 57, CH-4051 Basel, Switzerland; Institute of Oncology Research, Via Vincenzo Vela 6, CH-6500 Bellinzona, Switzerland; University of Bern, Baltzerstrasse 6, CH-3012 Bern, Switzerland; University of Fribourg, Chemin du Musée 10, CH-1700 Fribourg, Switzerland; University of Geneva, CMU, Rue Michel-Servet 1, CH-1211 Geneva 4, Switzerland; HES-SO, HEG Genève, route de Drize 7, CH-1227 Carouge, Switzerland; Ecole Polytechnique Fédérale de Lausanne (EPFL), CH-1015, Lausanne, Switzerland; Ludwig Institute for Cancer Research, CH-1015 Lausanne, Switzerland; University of Lausanne, CH-1015 Lausanne, Switzerland; Università della Svizzera Italiana, Via Giuseppe Buffi 13, CH-6900 Lugano, Switzerland; Agroscope, Schloss 1, P.O. Box, CH-8820 Wädenswil, Switzerland; Zurich University of Applied Sciences, Grüental, P.O. Box, CH-8820 Wädenswil, Switzerland; ETH Zurich, Universitätstrasse 6, CH-8006 Zurich & Mattenstrasse 26, CH-4058 Basel, Switzerland; University of Zurich, Winterthurerstrasse 190, CH-8057 Zurich, Switzerland
+Department of Biophysics, University of Michigan, Ann Arbor, MI 48109, USA
+Department of Biochemistry and Chemistry, Duke University School of Medicine, Durham, NC 27710, USA
+Department of Chemistry, University of Michigan, Ann Arbor, MI 48109, USA
+Cell and Molecular Biology Department, Uppsala University, Box 596, Uppsala 751 24, Sweden
+RNA Therapeutics Institute, Department of Biochemistry and Molecular Pharmacology, University of Massachusetts Medical School, 368 Plantation St., Worcester, MA 01605, USA
+Department of Cell Biology and Molecular Genetics, University of Maryland College Park, College Park, MD 20742, USA
+Jacobs University Bremen, School of Engineering and Science, Bremen, 28758, Germany
+Institut für Hygiene, Universitätsklinikum Münster, Münster, 48149, Germany
+Philipps-Universität Marburg, LOEWE-Zentrum für Synthetische Mikrobiologie, Department of Chromosome Biology, Marburg, 35032, Germany
+SANOFI/ TSU Infectious Diseases, Toulouse, 31036, France
+MRC Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge CB2 0QH, UK
+School of Mathematics, Statistics and Applied Mathematics, National University of Ireland Galway, University Road, Galway, Ireland
+Biosciences, National University of Ireland Galway, University Road, Dangan, Galway, Ireland
+Medical Research Council Human Genetics Unit, Institute of Genetics and Molecular Medicine, University of Edinburgh, Western General Hospital, Edinburgh, EH4 2XU, UK
+Biotech Research & Innovation Centre (BRIC), University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen N, Denmark
+Centre for Epigenetics, University of Copenhagen, Ole Maaløes Vej 5, 2200 Copenhagen N, Denmark
+Centre for Epigenetics, Department of Biochemistry and Molecular Biology, University of Southern Denmark, 5230 Odense M, Denmark
+VILLUM Center for Bioanalytical Sciences, University of Southern Denmark, 5230 Odense M, Denmark
+The Danish Stem Cell Centre (Danstem), University of Copenhagen, Blegdamsvej 3, 2200 Copenhagen, Denmark
+The Walter and Eliza Hall Institute of Medical Research, 1G Royal Parade, Parkville, VIC 3052, Australia
+Department of Medical Biology, The University of Melbourne, Parkville, VIC 3010, Australia
+Department of Mathematics and Statistics, The University of Melbourne, Parkville, VIC 3010, Australia
+Aix-Marseille Université, AFMB UMR 7257, 13288 Marseille, France
+CNRS, AFMB UMR 7257, 13288 Marseille, France
+Institute of Genomics, School of Biomedical Sciences, Huaqiao University, 668 Jimei Road, Xiamen 361021, China
+St. Laurent Institute, 317 New Boston St., Suite 201, Woburn, MA 01801, USA
+Department of Molecular Biology, Cell Biology, and Biochemistry, Brown University, Providence, RI, USA
+AcademGene Ltd., 6, Acad. Lavrentjev ave., Novosibirsk 630090, Russia
+State Research Center of Virology and Biotechnology ‘Vector’, Novosibirsk, Russia
+A. P. Ershov Institute of Informatics Systems SB RAS, 6, Acad. Lavrentjev ave., Novosibirsk 630090, Russia
+Federal Research Center Institute of Cytology and Genetics SB RAS, 10, Acad. Lavrentjev ave., Novosibirsk 630090, Russia
+RIKEN Omics Science Center (OSC)†, 1–7–22 Suehiro-cho, Tsurumi-ku, Yokohama, 230–0045, Japan
+RIKEN Center for Life Science Technologies, Division of Genomic Technologies, 1–7–22 Suehiro-cho, Tsurumi-ku, Yokohama, Kanagawa, 230–0045, Japan
+RIKEN Preventive Medicine and Diagnosis Innovation Program (PMI), 2–1 Hirosawa, Wako-shi, Saitama 351–0198, Japan
+Telethon Kids Institute, The University of Western Australia, 100 Roberts Road, Subiaco, Subiaco, 6008, Western Australia, Australia
+LBCMCP, Centre de Biologie Intégrative (CBI), Université de Toulouse, CNRS, UPS, France
+The George Washington University Medical Center, Department of Medicine, Division of Genomic Medicine, 2300 I St. NW, Washington, DC, USA
+Center for Therapeutic Innovation and Department of Psychiatry and Behavioral Sciences, University of Miami Miller School of Medicine, 1501 NW 10th Ave., Miami, FL 33136, USA
+Division of Biological Stress Response, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands
+Mouse Clinic for Cancer and Aging research (MCCA) Transgenic Facility, The Netherlands Cancer Institute, Plesmanlaan 121, 1066 CX Amsterdam, The Netherlands
+Division of Basic Sciences, Fred Hutchinson Cancer Research Center, 1100 Fairview Avenue N. A3-025, Seattle, WA 98109, USA
+Centre for Biological Sciences, Life Sciences Building 85, University of Southampton, Southampton SO17 1BJ, UK
+Institute of Future Cities, Chinese University of Hong Kong, Hong Kong
+Department of Computer Science and Engineering, Chinese University of Hong Kong, Sha Tin, New Territories, Hong Kong
+Cancer Research Center of Marseille, INSERM U1068, 13009-Marseille, France
+European Research Institute for the Biology of Ageing, University Medical Center Groningen, University of Groningen, 9713 AV Groningen, The Netherlands
+Terry Fox Laboratory, BC Cancer Agency, Vancouver, BC V5Z 1L3, Canada
+Division of Hematology, Department of Medicine, University of British Columbia, Vancouver, BC V6T 1Z4, Canada
+Institute of Biochemistry, Justus-Liebig-University Giessen, Heinrich-Buff-Ring 58, D-35392 Giessen, Germany
+New England Biolabs Inc., 240 County Road, Ipswich, MA 01938–2723, USA
+School of Physics and Astronomy, University of Leeds, Woodhouse Lane, Leeds LS2 9JT, UK
+Theoretical and Computational Science Center (TaCS), Science Laboratory Building, Faculty of Science, King Mongkut's University of Technology Thonburi (KMUTT), 126 Pracha-Uthit Road, Bang Mod, Thrung Khru, Bangkok 10140, Thailand
+Rudolf Peierls Centre for Theoretical Physics, University of Oxford, Parks Road, Oxford OX1 3PU, UK
+UC Davis Genome Centre, Health Sciences Drive, Davis, CA 95616, USA
+Department of Physics, São Paulo State University, Rua Cristovão, São José do Rio Preto, SP 15054-000, Brazil
+Department of Physics, Biological Physical Sciences Institute, University of York, York, YO10 5DD, UK
+School of Pharmacy and Centre for Biomolecular Sciences, University of Nottingham, University Park, Nottingham NG7 2RD, UK
+Physical and Theoretical Chemistry Laboratory, Department of Chemistry, University of Oxford, South Parks Road, Oxford OX1 3QZ, UK
+Astbury Centre for Structural and Molecular Biology, University of Leeds, Woodhouse Lane, Leeds LS2 9JT, UK
+Laboratory of Regulation of Gene Expression, Institute of Microbiology ASCR, Videnska 1083, Prague, 142 20, the Czech Republic
+Protein Information Resource, Georgetown University Medical Center, Washington, DC 20007, USA
+Center for Bioinformatics and Computational Biology, University of Delaware, Newark, DE 19711, USA
+The Jackson Laboratory, Bar Harbor, ME 04609, USA
+Oral Diagnostic Sciences, University at Buffalo School of Dental Medicine, Buffalo, NY 14214, USA
+Roswell Park Cancer Institute, Buffalo, NY 14203, USA
+Department of Biochemistry & Molecular Pharmacology, NYU School of Medicine, New York, NY 10016, USA
+Department of Neurology, Jacobs School of Medicine and Biomedical Sciences, University at Buffalo, Buffalo, NY 14203, USA
+New York State Center of Excellence in Bioinformatics and Life Sciences, University at Buffalo, Buffalo, NY 14203, USA
+National Center for Ontological Research, University at Buffalo, Buffalo, NY 14214, USA
+J. Craig Venter Institute, La Jolla, CA 92037, USA
+Virus and Prion Research Unit, National Animal Disease Center, USDA-ARS, Ames, IA 50010, USA
+Department of Zoology, University of Cambridge, Cambridge, CB2 3EJ, UK
+Animal Health Service, Food and Agriculture Organization of the United Nations, Rome 00153, Italy
+Northrop Grumman Health Solutions, Rockville, MD 20850, USA
+Vecna Technologies, Greenbelt, MD 20770, USA
+Bioinformatics Institute, University of Auckland, Auckland 1010, New Zealand
+Department of Pathology, University of California, San Diego, CA 92093, USA
+Division of Vaccine Discovery, La Jolla Institute for Allergy and Immunology, La Jolla, CA 92037, USA
+Institute for Structural and Molecular Biology, School of Biological Sciences, Birkbeck College, London WC1E 7HX, UK
+Wolfson Institute for Biomedical Research, Division of Medicine, University College London, London WC1E 6BT, UK
+Max Planck Institute for Molecular Genetics, Ihnestrasse, Berlin 14195, Germany
+MRC Centre for Molecular Bacteriology and Infection, Imperial College London, London, UK
+Department of Biology, University of York, Wentworth Way, York YO10 5DD, UK
+School of Medical Sciences, Institute of Medical Sciences, University of Aberdeen, Aberdeen AB25 2ZD, UK
+Institute for Global Food Security, Queen's University Belfast, David Keir Building, Malone Road, Belfast BT9 5BN, UK
+DNA-Protein Interactions Unit, School of Biochemistry, University of Bristol, Bristol BS8, 1TD, UK
+Centre for Genetics and Genomics, University of Nottingham, Queen's Medical Centre, Nottingham NG7 2UH, UK
+Centre for Synthetic Biology and Innovation and Department of Life Sciences, Imperial College London, London SW7 2AZ, UK
+Department of Life and Environmental Science, Chiba Institute of Technology, Tsudanuma, Narashino-shi, Chiba, Japan
+Department of Life and Environmental Science and High Technology Research Center, Chiba Institute of Technology, Tsudanuma, Narashino-shi, Chiba, Japan
+Wolfgang Pauli Institute, Univ. Wien – UZA 4 Nordbergstrasse 15, A, 1090 Vienna, Austria
+Vienna Center for Quantum Science and Technology, Atominstitut, TU Wien, Stadionallee 2, 1020 Vienna, Austria
+Kirchhoff-Institute for Physics, Heidelberg University, INF 227, 69120 Heidelberg, Germany
+The Institute of Cardiovascular Research, Ninewells Hospital and Medical School, Dundee, DD1 9SY, Scotland, UK
+Biomedical Research Centre, Ninewells Hospital and Medical School, Dundee, DD1 9SY, Scotland, UK
+Division of Medicine and Therapeutics, Ninewells Hospital and Medical School, Dundee, DD1 9SY, Scotland, UK
+Department of Physical Medicine and Rehabilitation, Ton-Yen General Hospital, Hsinchu County, Taiwan
+Department of Nursing, Chong-De Nursing Home, Hsinchu County, Taiwan
+Department of Neurology, National Taiwan University Hospital, Hsin-Chu Branch, Hsinchu County, Taiwan
+Department of Midwifery, Kocaeli High Health School, University of Kocaeli, Kocaeli, Turkey
+Department of Nursing, Muğla High Health School, University of Muğla Sıtkı Koçman, Muğla, Turkey
+Department of History of the Medicine and Medical Ethics, Medical Faculty, University of Kocaeli, Kocaeli, Turkey
+Department of Midwifery, Faculty of Nursing and Midwifery, Kashan University of Medical Sciences, Kashan, IR Iran
+Trauma Nursing Research Center, Kashan University of Medical Sciences, Kashan, IR Iran
+Department of Psychiatric Nursing, Tehran University of Medical Sciences, Tehran, IR Iran
+Department of Management, Nursing and Midwifery Care Research Center, Tehran University of Medical Sciences, Tehran, IR Iran
+Australian Catholic University
+Australian Catholic University
+Flinders University
+Monash University
+Charles Sturt University (CSU)
+University of Genoa
+Centre for Research in Primary and Community Care (CRIPACC) University of Hertfordshire
+Biotechnology Division, NEIST (CSIR), Jorhat, 785006 Assam India 
+Department of Biotechnology, Guwahati University, Gauhati, Assam India 
+School of Biotechnology, University of Jammu, Jammu, 180 006 India 
+Biotechnology and Fermentation Group, Department of Animal Sciences, Gerlaugh Hall, Ohio Agricultural Research and Development Centre (OARDC), The Ohio State University, 1680 Madison Avenue, Wooster, OH 44691 USA 
+Mathematics and Computer Science Division, Argonne National Laboratory, 9700 S Cass Avenue, Argonne, IL 60439 USA 
+Fellowship for Interpretation of Genomes, Burr Ridge, IL 60527 USA 
+Plant Biotechnology Laboratory, Department of Botany, North-Eastern Hill University, Shillong, 793 022 India 
+School of Chemical and Biotechnology, Shanmuga Arts, Science, Technology and Research Academy (SASTRA) University, Tirumalaisamudram, Thanjavur, 613401 Tamilnadu India 
+Microbiology Research Laboratory, Post Graduate Department of Zoology,
+Molecular Biology and Genetics, Presidency University, 86/1, College Street, Kolkata, 700073 India 
+Centre for Energy, Indian Institute of Technology Guwahati, Guwahati, 781 039 Assam India 
+Department of Chemical Engineering, Indian Institute of Technology Guwahati, Guwahati, 781 039 Assam India 
+Department of Surgical Oncology, Institute of Medical Sciences, Banaras Hindu University, Varanasi, 221005 India 
+Amity Institute of Biotechnology, Amity University, Lucknow, UP India 
+Department of Pharmaceutics, I.I.T. Banaras Hindu University, Varanasi, India 
+Department of Biochemistry, Faculty of Science, Banaras Hindu University, Varanasi, India 
+Affiliated to Better Process Control School, Department of Food Science and Technology, University of California, Davis, CA USA 
+Computer Technology Resources, Irvine, CA USA 
+Department of Microbiology, Kakatiya University, Hanamkonda, Warangal, 506009 India 
+Department of Biotechnology, Himachal Pradesh University, Summer Hill, Shimla, 171005 India 
+Department of Pharmaceutical Chemistry, Bombay College of Pharmacy, Kalina, Santacruz (E), Mumbai, 400098 India 
+Structural and Molecular Biology Laboratory, Tata Memorial Centre, Advanced Centre for Treatment, Research and Education in Cancer, Kharghar, Navi Mumbai, 410 210 India 
+UM-DAE Centre for Excellence in Basic Sciences, Kalina Campus, Santacruz (E), Mumbai, 400098 India 
+Department of Industrial Biotechnology, Bharath University, Chennai, 600073 Tamil Nadu India 
+Department of Biotechnology, Sri Krishnadevaraya University, Anantapuram, 515003 Andhra Pradesh India 
+Department of Tissue culture and Genetic Engineering, Agricultural Biotechnology Research Institute of Iran (ABRII), Karaj, Iran 
+Ramin University of Agricultural and Natural Resources, Ahvaz, Iran 
+Center for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025 India 
+Female College of Applied Medical Science, Taif University, Al-Taif, Kingdom of Saudi Arabia 
+Department of Computer Science, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025 India 
+Center for Interdisciplinary Research in Basic Sciences, Jamia Millia Islamia, Jamia Nagar, New Delhi, 110025 India 
+Natco Pharma Limited, Natco House, Road No. 2, Banjara Hills, Hyderabad, 500 034 India 
+Department of Virology, Sri Venkateswara University, Tirupati, 517502 A. P India 
+Biotechnology Section, Crop Improvement Division, Indian Institute of Rice Research (ICAR-IIRR), Hyderabad, India 
+Nuclear Agriculture and Biotechnology Division, Bhabha Atomic Research Centre (BARC), Mumbai, India 
+Agri Biotech Foundation, Rajendra Nagar, Hyderabad, India 
+Biomoneta Research Private Limited, Centre for Cellular and Molecular Platforms, NCBS, (TIFR), Bengaluru, India 
+National Center for Biological Sciences (NCBS), TIFR, Bengaluru, India 
+Regional Research Station (RARS-PJTSAU), Warangal, India 
+College of Chemical Engineering, Nanjing Forestry University, Nanjing, 210037 China 
+Nanjing Institute for the Comprehensive Utilization of Wild Plants, Nanjing, 210042 China 
+College of Horticulture, South China Agricultural University, Guangzhou, 510642 China 
+Guangdong Institute of Microbiology, Guangdong Provincial Key Laboratory of Microbial Culture Collection and Application, Guangdong Open Laboratory of Applied Microbiology, State Key Laboratory of Applied Microbiology South China, Guangzhou, 510070 China 
+Environmental Microbiology Laboratory, Environmental Toxicology Group, CSIR-Indian Institute of Toxicology Research (CSIR-IITR), Vishvigyan Bhavan 31, Mahatma Gandhi Marg, Lucknow, Uttar Pradesh 226001 India 
+Amity Institute of Biotechnology, Amity University, Lucknow Campus, Malhaur, Near Railway Station, Gomti Nagar Extension, Lucknow, Uttar Pradesh 226028 India 
+Microbiology Division, CSIR-Central Drug Research Institute (CSIR-CDRI), Sector 10, Jankipuram Extension, Sitapur Road, Lucknow, Uttar Pradesh 226031 India 
+Environment Management Division, Central Pulp and Paper Research Institute, Post Box 174, Paper Mill Road, Himmat Nagar, Saharanpur, Uttar Pradesh 247001 India 
+Department of Studies in Microbiology, University of Mysore, Mysuru, Karnataka India 
+Department of Studies in Physics, University of Mysore, Mysuru, Karnataka India 
+School of Biological Sciences, Universiti Sains Malaysia, 11800 Gelugor, Penang Malaysia 
+Centre for Chemical Biology, Bayan Lepas, Penang Malaysia 
+Malaysian Institute of Pharmaceuticals and Nutraceuticals, NIBM, Penang, Malaysia 
+MPI Research, 54943 North Main Street, Mattawan, Michigan USA 
+Celgene, Summit, New Jersey USA 
+Pharmavite, Mission Hills, California USA 
+Sanofi Aventis, Bridgewater, New Jersey USA 
+GTx, Inc., Memphis, Tennessee USA 
+Merck, West Point, PA USA 
+Advion, Ithaca, New York USA 
+Faculty of Pharmacy, University of Coimbra, Azinhaga de Santa Comba, 3000-548 Coimbra, Portugal 
+Department of Chemistry, University of Coimbra, Rua Larga, 3004-535 Coimbra, Portugal 
+Centro de Investigação em Química, Department of Chemistry and Biochemistry, University of Porto, Rua Campo Alegre, 687, 4169-007 Porto, Portugal 
+Ernest Mario School of Pharmacy/Center for Dermal Research - New Jersey Center for Biomaterials, Rutgers - The State University of New Jersey, Piscataway, New Jersey 08854 USA 
+Department of Pharmaceutics, China Pharmaceutical University, Nanjing, 210009 Peoples Republic of China 
+School of Pharmacy, University of Auckland, Private Bag 92019 Auckland, New Zealand 
+Atherosclerosis Research Centre, Nanjing Medical University, Nanjing, 210029 Peoples Republic of China 
+Department of Radiological Sciences, David Geffen School of Medicine at UCLA, Box 951721, 10833 Le Conte Ave, BL-428 CHS, Los Angeles, CA 90095-1721 USA 
+Department of Diagnostic Radiology and Molecular Imaging, Oakland University William Beaumont School of Medicine, 3601 W. 13 Mile Road, Royal Oak, MI 48073 USA 
+Department of Nuclear Medicine, Kaohsiung Chang Gung Memorial Hospital and Chang Gung University College of Medicine, Kaohsiung, Taiwan 
+Monash University Australian Centre for Health Innovation
+Dr. Gorrindo is a trainee, Medical Scientist Training Program, Vanderbilt University School of Medicine, Nashville, Tennessee.
+Dr. Peltz is a resident physician, Department of Medicine, Boston Children’s Hospital, and Department of Pediatrics, Boston Medical Center, Boston, Massachusetts.
+Mr. Ladner is a medical student, Vanderbilt University School of Medicine, Nashville, Tennessee.
+Ms. Reddy is a trainee, Medical Scientist Training Program, Vanderbilt University School of Medicine, Nashville, Tennessee.
+Dr. Bonnie Miller is senior associate dean for health sciences education, Vanderbilt University School of Medicine, Nashville, Tennessee.
+Dr. Robert Miller is associate professor, Department of Medicine, Vanderbilt University School of Medicine, Nashville, Tennessee.
+Dr. Fowler is assistant professor, Department of Medicine, Vanderbilt University School of Medicine, Nashville, Tennessee.
+Dr. Gan is a fifth-year resident, General Internal Medicine fellowship program, McGill University, Montreal, Quebec, Canada.
+Dr. Snell is professor of medicine, Centre for Medical Education and Department of Medicine, McGill University, Montreal, Quebec, Canada, and senior clinician educator, Royal College of Physicians and Surgeons of Canada, Ottawa, Ontario, Canada.
+Y. Xu is a medical student, School of Medicine, Faculty of Health Sciences, Queen’s University, Kingston, Ontario, Canada.
+P.S. Wells is professor and chair, Department of Medicine, University of Ottawa, and Chief of Medicine, Ottawa Hospital, Ottawa, Ontario, Canada.
+Bander Center for Medical Business Ethics, Saint Louis University, St. Louis, Missouri, USA
+Neiswanger Institute for Bioethics, Loyola University of Chicago, Chicago, Illinois, USA
+Department of Neurology and Psychiatry, Saint Louis University, St. Louis, Missouri, USA
+Albert Gnaegi Center for Health Care Ethics, Saint Louis University, St. Louis, Missouri, USA
+University of Wisconsin, Madison
+University of Pittsburgh
+Vanderbilt University
+University of Nebraska Medical Center
+Georgia Institute of Technology
+Florida State University
+The Scripps Research Institute
+Yale University
+Eindhoven University of Technology
+Department of Medicine, Indiana University School of Medicine, Indianapolis, IN
+Purdue University School of Pharmacy, Indianapolis, IN
+Department of Pathology, Indiana University School of Medicine, Indianapolis, IN
+Department of Internal Medicine, Division of Gastroenterology and Hepatology, Saint Louis University, St. Louis, MO
+Division of Gastroenterology, Department of Medicine, Duke University Medical Center, Durham, NC
+Division of Infectious Diseases, Department of Medicine, Duke University Medical Center, Durham, NC
+Department of Internal Medicine, Duke University Medical Center, Durham, NC
+Division of Digestive Diseases and Nutrition, University of South Florida, Tampa, FL
+Department of Gastroenterology, James A. Haley Veterans Affairs, Tampa, FL
+Department of Integrative Biology, University of South Florida, Tampa, FL
+Department of Internal Medicine, University of Texas Health Science Center, Houston, TX
+Division of Gastroenterology, Hepatology, and Nutrition, University of Texas Health Science Center, Houston, TX
+Department of Medicine, New York Presbyterian Hospital Weill Cornell Medical Center, New York, NY
+Department of Pathology, New York Presbyterian Hospital Weill Cornell Medical Center, New York, NY
+Department of Gastroenterology, New York Presbyterian Hospital Weill Cornell Medical Center, New York, NY
+Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX
+Department of Internal Medicine, VA North Texas Health Care System, Dallas VA Medical Center, Dallas, TX
+Department of Surgery, University of Texas Southwestern Medical Center, Dallas, TX
+Department of Surgery, VA North Texas Health Care System, Dallas VA Medical Center, Dallas, TX
+Kings College Hospital NHS Foundation Trust, Liver Department, Denmark Hill, UK
+Epsom and St. Helier NHS Trust, Gastroenterology Department, Epsom, UK
+St. George's University School of Medicine, Grenada, West Indies
+Department of Internal Medicine, Kings County Hospital Center, Brooklyn, NY
+Division of Gastroenterology and Hepatology, SUNY Downstate Medical Center, Brooklyn, NY
+Department of Internal Medicine, Baylor College of Medicine, Houston, TX
+Department of Gastroenterology and Hepatology, Baylor College of Medicine, Houston, TX
+Department of Internal Medicine, University of Arkansas for Medical Sciences, Little Rock, AR
+Department of Medicine, Division of Gastroenterology and Hepatology, Department of Medicine, University of Arkansas for Medical Sciences, Little Rock, AR
+Department of Gastroenterology, 401 Army General Hospital, Athens, Greece
+Medical Oncology Department, 401 Army General Hospital, Athens, Greece
+Creighton University School of Medicine, Omaha, NE
+Department of Internal Medicine, Creighton University School of Medicine, Omaha, NE
+Department of Medicine, Temple University Hospital, Philadelphia, PA
+Department of Gastroenterology, Temple University Hospital, Philadelphia, PA
+Department of General and Digestive Surgery, University of Vigo, Meixoeiro/Xeral Hospital, Vigo, Spain
+Department of Surgery, New York Presbyterian Hospital–Weill Cornell Medical College, New York, NY
+Department of Surgery, University of Insubria, Varese, Italy
+Unit of Pathology, University of Vigo, Meixoeiro/Xeral Hospital, Vigo, Spain
+Division of Gastroenterology and Hepatology, Indiana University, Indianapolis, IN
+Division of Gastroenterology and Hepatology, Virginia Mason Medical Center, Seattle, WA
+Division of Gastroenterology and Hepatology, Medical University of South Carolina, Charleston, SC
+Division of Gastroenterology, Department of Medicine, Feinberg School of Medicine, Northwestern University, Chicago, IL
+Atlanta VA Medical Center, Department of Digestive Diseases, Emory University School of Medicine, Atlanta, GA
+Department of Pathology, Stanford University School of Medicine, Stanford University, Stanford, CA
+Division of Surgical Oncology, Department of Surgery, Feinberg School of Medicine, Northwestern University, Chicago, IL
+Department of Internal Medicine, Penn State Milton S. Hershey Medical Center, Hershey, PA
+Department of Gastroenterology, Penn State Milton S. Hershey Medical Center, Hershey, PA
+Department of Pathology, Penn State Milton S. Hershey Medical Center, Hershey, PA
+Department of Gastroenterology, Sapporo Kosei General Hospital, Sapporo, Japan
+Department of Radiology, Sapporo Kosei General Hospital, Sapporo, Japan
+Department of Pediatrics, David Geffen School of Medicine, UCLA, Los Angeles, CA
+Pediatric Gastroenterology, Hepatology, and Nutrition, David Geffen School of Medicine, UCLA, Los Angeles, CA
+Department of Radiology, David Geffen School of Medicine, UCLA, Los Angeles, CA
+Division of Liver and Pancreas Transplantation, David Geffen School of Medicine, UCLA, Los Angeles, CA
+University of Illinois, Advocate Christ Medical Center, Oak Lawn, IL
+Department of Medicine, Rutgers Robert Wood Johnson Medical School, New Brunswick, NJ
+Division of Gastroenterology, Department of Medicine, University Medical Center at Princeton, Plainsboro, NJ
+Division of Internal Medicine, Department of Medicine, Thomas Jefferson University Hospital, Philadelphia, PA
+Division of Gastroenterology and Hepatology, Department of Medicine, Thomas Jefferson University Hospital, Philadelphia, PA
+Department of Pathology, Thomas Jefferson University Hospital, Philadelphia, PA
+Department of Internal Medicine, Wake Forest School of Medicine, Winston-Salem, NC
+Department of Gastroenterology, Wake Forest School of Medicine, Winston-Salem, NC
+Department of Surgical Oncology, Wake Forest School of Medicine, Winston-Salem, NC
+Inflammatory Bowel Disease Center, University of Chicago Medicine, Chicago, IL
+Internal Medicine Department, University of Missouri-Kansas City School of Medicine, Kansas City, MO
+Division of Gastroenterology, University of Missouri-Kansas City School of Medicine, Kansas City, MO
+Department of Internal Medicine, Kansas University School of Medicine, Wichita, KS
+Division of Gastroenterology, Hepatology, and Nutrition, Department of Medicine, University of Minnesota, Minneapolis, MN
+Division of Colon and Rectal Surgery, University of Minnesota, Minneapolis, MN
+Department of Pharmacy and Pharmacology, University of Bath, Claverton Down, Bath, United Kingdom
+Office of the Associate Director for Policy, CDC, Atlanta, Georgia
+Department of Policy Analysis and Management, Department of Economics, Cornell University, Ithaca, New York
+Social and Behavioral Sciences Team, General Services Administration, Washington, District of Columbia
+Lawson Health Research Institute
+Departments of Microbiology & Immunology and Surgery, The University of Western Ontario
+Department of Pharmacy and Biotechnology, University of Bologna Metagenics
+Rowett Institute of Nutrition and Health, University of Aberdeen
+Biocodex
+University College Cork
+Department of Bioscience Engineering, University of Antwerp
+Nutricia Research
+Manchester Pharmacy School (AJM), Clinical Biochemistry (CO'N), The University of Manchester
+Yale University
+Complutense University of Madrid
+Department of Food and Nutritional Sciences, University of Reading
+Winclove Probiotics
+Zespri International Ltd.
+From the 1Department of Pediatrics, University of Arkansas for Medical Sciences, Little Rock, Arkansas, 
+2Department of Otolaryngology–Head and Neck Surgery, Charlottesville, Virginia, 
+3Department of Public Health Sciences, University of Virginia Health System, Charlottesville, Virginia and 
+4Asthma and Allergic Disease Center, Carter Immunology Center–University of Virginia Health System, Charlottesville, Virginia
+From the Department of Otorhinolaryngology, Head and Neck Surgery, University Hospitals Leuven, Belgium
+From the 1Division of Otorhinolaryngology, Sahlgrenska University Hospital/Mölndal, Sweden, and 
+Departments of 2Occupational and Environmental Medicine and 
+3Allergology, Sahlgrenska University Hospital, Göteborg, Sweden
+From the 1Department of Otorhinolaryngology—Head and Neck Surgery, University of Pennsylvania, Philadelphia, Pennsylvania, 
+2Surgical Services, Philadelphia VA Medical Center, Philadelphia, Pennsylvania, and 
+3Monell Chemical Senses Center, Philadelphia, Pennsylvania
+Department of Gastrointestinal Surgery, Kanagawa Cancer Center
+Department of Surgery, Yokohama City University
+Department of Biostatistics and Epidemiology, Yokohama City University Medical Center, Yokohama, Japan
+Department of Medicine, Hospital Unit West, Herning, Denmark; and
+Department of Cardiology, Erasmus Medical Center, Rotterdam, The Netherlands.
+Oregon Health Sciences University
+Oregon Health Sciences University
+Oregon Health Sciences University
+Oregon National Primate Research Center
+University of California‐Riverside
+University of Sydney Westmead Hospital
+University of California San Francisco School of Medicine
+Harvard Medical School
+U.S. Naval Medical Research Unit No. 2, Jakarta, Indonesia; Communicable Disease Control Department, Ministry of Health, Phnom Penh Cambodia; U.S. Naval Medical Research Unit No. 2, Phnom Penh, Cambodia
+Department of Medicine, University of California, San Francisco, California
+Signature Research Program in Emerging Infectious Diseases, Duke-National University of Singapore Graduate Medical School, Singapore
+Malaria Public Health Department, Kenya Medical Research Institute–Wellcome Trust Collaborative Programme, Nairobi, Kenya; Faculty of Infectious and Tropical Diseases, London School of Hygiene and Tropical Medicine, London, United Kingdom; Division of Vector Borne and Neglected Tropical Diseases, Ministry of Public Health and Sanitation, Nairobi, Kenya; Eastern and Southern Africa Centre of International Parasite Control, Kenya Medical Research Institute, Nairobi, Kenya; Centre for Geographic Medicine Research-Coast, Kenya Medical Research Institute, Kilifi, Kenya; Centre for Tropical Medicine, Nuffield Department of Medicine, University of Oxford, Oxford, United Kingdom
+Disease Control Strategy Group, Liverpool School of Tropical Medicine, Liverpool, United Kingdom; Department of Infectious and Tropical Diseases, London School of Hygiene and Tropical Medicine, London, United Kingdom; Vector Control Division, Ministry of Health, Kampala, Uganda
+Department of International Health, Johns Hopkins Bloomberg School of Public Health, Baltimore, Maryland; Center for Vaccine Sciences, ICCDR,B, Dhaka, Bangladesh; Federal University of Ceará, Fortaleza, CE, Brazil; Christian Medical College, Vellore, Tamil Nadu, India; AFRIMS Research Unit Nepal (WARUN), Kathmandu, Nepal; Department of Pediatrics and Child Health, Aga Khan University, Karachi, Pakistan; University of Venda, Limpopo Province, South Africa; Haydom Lutheran Hospital, Manraya, Tanzania; Center for Global Health, University of Virginia, Charlottesville, Virginia; Division of Women and Child Health, Aga Khan University, Karachi, Pakistan; Foundation of National Institutes of Health, Bethesda, Maryland
+Eijkman–Oxford Clinical Research Unit
+Jakarta, Indonesia
+Sanaria Inc.
+Rockville, Maryland
+Virginia Tech University
+Blacksburg, Virginia
+Naval Medical Research Center
+Silver Spring, Maryland
+Walter Reed Army Institute of Research
+Silver Spring, Maryland
+International SOS
+Jakarta, Indonesia
+Portsmouth Naval Hospital
+Portsmouth, Virginia
+US Centers for Disease Control
+Fort Collins, Colorado
+Faculty of Medicine University of Indonesia
+Jakarta, Indonesia
+Harpers Ferry, West Virginia
+Sismadi Health Science and Research Institute
+Jakarta, Indonesia
+Department of Pediatrics and Medicine, Center for Vaccine Development, University of Maryland School of Medicine, Baltimore, Maryland; Medical Research Council (MRC), Basse, The Gambia; Centre pour le Développement des Vaccins du Mali (CVD-Mali), Bamako, Mali; Centro de Investigação em Saúde da Manhiça (CISM), Manhiça, Mozambique; Global Disease Detection Division, Kenya Office of the US Centers for Disease Control and Prevention, Nairobi, Kenya; National Institute of Cholera and Enteric Diseases (NICED), Kolkata, India; International Center for Diarrheal Disease Research (ICDDR,B), Mirzapur, Bangladesh; Department of Paediatrics and Child Health, the Aga Khan University, Karachi, Pakistan; Cooperative Studies Program Coordinating Center, Department of Veteran Affairs, Cooperative Studies Program Coordinating Center, Perry Point, Maryland; Child and Reproductive Health Group, Liverpool School of Tropical Medicine, Liverpool, United Kingdom; Bloomberg School of Public Health, Johns Hopkins University, Baltimore, Maryland
+Save the Children, Westport, Connecticut; Center for Global Health and Development, Boston University, Boston, Massachusetts; Department of International Health, Boston University School of Public Health, Boston, Massachusetts; Section of Infectious Diseases, Department of Medicine, Boston University School of Medicine, Boston, Massachusetts; Zambia Centre for Applied Health Research and Development, Lusaka, Zambia; Global Malaria Programme, World Health Organization, Geneva, Switzerland; Uppsala University, Uppsala, Sweden; Makerere University, Kampala, Uganda; Karolinska Instituet, Stockholm, Sweden
+Unité de Dermatologie–Infectiologie, Centre Hospitalier Intercommunal Fréjus Saint Raphaël, Fréjus, France; Service de Parasitologie-Mycologie, Hôpital de l'Archet, Centre Hospitalier Universitaire de Nice, Nice, France; Institut National de la Santé et de la Recherche Médicale, Unite 895/Université de Nice-Sophia Antipolis, Nice, France
+Centers for Disease Control and Prevention, Fort Collins, Colorado; Centers for Disease Control and Prevention, Atlanta, Georgia; Department of Biology, Missouri Western State University, St. Joseph, Missouri
+Pan American Health Organization, Asunción, Paraguay; World Health Organization, Geneva, Switzerland; Division of Epidemiology, Laboratory and Research, Ministry of Public Health and Population, Port-au-Prince, Haiti; EpiConcept, Paris, France; Foreign Health, Ministry of Health, Social Services and Equality of Spain in Barcelona, Delegation of the Spanish Government in Catalonia, Barcelona, Spain; Pan American Health Organization, Port-au-Prince, Haiti; Caribbean Program Coordination, Pan American Health Organization, Bridgetown, Barbados; Pan American Health Organization, Washington, District of Columbia; Global Outbreak Alert and Response Network, Geneva, Switzerland
+Center for Applied Malaria Research and Evaluation, Department of Global Health Systems and Development, Tulane University School of Public Health and Tropical Medicine, New Orleans, Louisiana; Department of Statistics, University of Namibia, Windhoek, Namibia; Malaria Alert Centre, Malawi College of Medicine, Blantyre, Malawi; Malaria Public Health Department, Kenya Medical Research Institute-Wellcome Trust–University of Oxford Collaborative Programme, Nairobi, Kenya; National Malaria Control Programme, Ministry of Health, Lilongwe, Malawi; Centre for Tropical Medicine, Nuffield Department of Clinical Medicine, University of Oxford, Oxford, United Kingdom
+Emory University School of Medicine
+Atlanta, GA 30332
+E-mail: mark.mulligan@emory.edu
+Centers for Disease Control and Prevention
+Atlanta, GA 30333
+Division of Parasitic Diseases and Malaria, Centers for Disease Control and Prevention, Atlanta, Georgia; The Carter Center, Atlanta, Georgia; The Carter Center, N’Djamena, Chad; LifeSource Biomedical, Centreville, Virginia; The Wellcome Trust Sanger Institute, Hinxton, United Kingdom; Ministry of Public Health, N’Djamena, Chad
+Department of Neurology Post Graduate Institute of Medical Education and Research Chandigarh, India E-mails: drpkesav@gmail.com, vishnuvy16@yahoo.com, and sudeshprabhakar@gmail.com
+Division of Parasitic Diseases and Malaria, Centers for Disease Control and Prevention, Atlanta, Georgia; Seattle Children's Hospital, Seattle, Washington; Baylor College of Medicine, Houston, Texas; Center of Excellence for Chagas Disease, Olive View-UCLA Medical Center, Sylmar, California

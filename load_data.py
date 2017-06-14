@@ -31,8 +31,12 @@ def load_aff():
         result.append(r)
     train_sents = result[100:]
     #test_sents = result[:100]
-    test_sents = process_aff.read_conll('/media/sf_work/aff-data/test-2-annotated.txt')
+    test_sents = process_aff.read_conll('data/test-2-annotated.txt')
     return train_sents, test_sents
+
+def word_digit_count(w):
+    d = [c.isdigit() for c in w]
+    return sum(d)
 
 
 def word2Feat(sent, i):
@@ -45,7 +49,8 @@ def word2Feat(sent, i):
         'word[-2:]=' + word[-2:],
         'word.isupper=%s' % word.isupper(),
         'word.istitle=%s' % word.istitle(),
-        'word.isdigit=%s' % word.isdigit(),
+        'word.digitcount=%s' % word_digit_count(word),
+        #'word.isdigit=%s' % word.isdigit(),
         'posttag=' + posttag,
         'posttag[:2]=' + posttag[:2],
     ]
@@ -57,6 +62,7 @@ def word2Feat(sent, i):
             '-1:word.lower=' + w1.lower(),
             '-1:word.istitle=%s' % w1.istitle(),
             '-1:word.isupper=%s' % w1.isupper(),
+            '-1:word.digitcount=%s' % word_digit_count(w1),
             '-1:postag=' + pos1,
             '-1:postag[:2]=' + pos1[:2],
         ])
@@ -70,6 +76,7 @@ def word2Feat(sent, i):
             '+1:word.lower=' + w1.lower(),
             '+1:word.istitle=%s' % w1.istitle(),
             '+1:word.isupper=%s' % w1.isupper(),
+            '+1:word.digitcount=%s' % word_digit_count(w1),
             '+1:postag=' + pos1,
             '+1:postag[:2]=' + pos1[:2],
         ])

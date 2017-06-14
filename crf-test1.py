@@ -47,7 +47,7 @@ def train_model(model_name):
 
 #model_name = 'conll2003-en.crfsuite'
 model_name = 'aff1.crfsuite'
-train_model(model_name)
+#train_model(model_name)
 
 tagger = pycrfsuite.Tagger()
 tagger.open(model_name)
