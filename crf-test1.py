@@ -9,7 +9,7 @@ import pycrfsuite
 print(sklearn.__version__)
 
 import load_data as ld
-train_sents, test_sents = ld.load_aff()
+train_sents, test_sents = ld.load_aff('usa_train.pkl', 'data/usa-test-converted.txt')
 
 print(train_sents[0])
 
@@ -46,8 +46,8 @@ def train_model(model_name):
     print (len(trainer.logparser.iterations), trainer.logparser.iterations[-1])
 
 #model_name = 'conll2003-en.crfsuite'
-model_name = 'aff1.crfsuite'
-#train_model(model_name)
+model_name = 'usa-model.crfsuite'
+train_model(model_name)
 
 tagger = pycrfsuite.Tagger()
 tagger.open(model_name)

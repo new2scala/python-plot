@@ -20,8 +20,8 @@ def load_conll2003():
     return train_sents, test_sents
 
 import process_aff_training_data as process_aff
-def load_aff():
-    _train_data = pickle.load(open('aff2_train.pkl', 'rb'))
+def load_aff(train_pkl, test_annotated):
+    _train_data = pickle.load(open(train_pkl, 'rb')) # 'aff2_train.pkl', 'rb'))
     #_train_data = _train_data[1:]
     result = []
     for d in _train_data:
@@ -31,8 +31,9 @@ def load_aff():
         result.append(r)
     train_sents = result[100:]
     #test_sents = result[:100]
-    test_sents = process_aff.read_conll('data/test-2-annotated.txt')
+    test_sents = process_aff.read_conll(test_annotated) # 'data/test-2-annotated.txt')
     return train_sents, test_sents
+
 
 def word_digit_count(w):
     d = [c.isdigit() for c in w]
